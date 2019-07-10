@@ -4,4 +4,4 @@ TelUsuCod int not null,
 TelDDD int(3) not null,
 TelNum int(9) not null,
 Foreign Key (TelUsuCod) References usuario(UsuCod)
-);
+);;
