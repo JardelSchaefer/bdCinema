@@ -1,10 +1,11 @@
+    
 Create Table Usuario(
-codigoUsuario int primary key auto_increment,
-nomeUsu varchar(60),
-tipoUsu char(1),
-cpfUsu varchar(45),
-rgUsu varchar(45),
-datNascUsu date,
-enderecoUsu varchar(45),
-cepUsu varchar(45)
+UsuCod int primary key auto_increment,
+UsuNom varchar(60),
+UsuTip char(1),
+UsuCpf varchar(45),
+UsuRg varchar(45),
+UsuDatNas date,
+UsuEnd varchar(45),
+UsuCep varchar(45)
 );
