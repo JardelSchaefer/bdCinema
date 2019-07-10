@@ -1,0 +1,4 @@
+Create table Sala(
+codigoSal int primary key auto_increment,
+nomeSal varchar(45)
+);
