@@ -1,0 +1,4 @@
+    
+Update usuario
+set UsuCpf = '777-777-777-77'
+Where UsuCod = 3;
