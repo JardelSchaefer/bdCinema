@@ -1,10 +1,11 @@
 create table sessao(
-codigoFilme int,
-codigoSal int,
-SesDatHor datetime,
-SesIdi varchar(20),
-SesLeg Char(1),
-constraint PK_Sessao Primary Key (codigoFilme, codigoSal, SesDatHor),
-Foreign Key (codigoFilme) References filme (codigoFilme),
-Foreign Key (codigoSal) References sala (codigoSal)
+SesCod int auto_increment,
+SesFilCod int not null,
+SesSalCod int not null,
+SesDatHor datetime not null,
+SesIdi varchar(20) not null,
+SesLeg Char(1) not null,
+constraint PK_Sessao Primary Key (SesCod, SesFilCod, SesSalCod, SesDatHor),
+Foreign Key (SesFilCod) References filme (FilCod),
+Foreign Key (SesSalCod) References sala (SalCod)
 );
