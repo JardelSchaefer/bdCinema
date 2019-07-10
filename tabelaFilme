@@ -1,0 +1,5 @@
+Create Table Filme(
+codigoFilme int primary key auto_increment,
+nomeFilme varchar(45),
+generoFilme varchar(45)
+);
