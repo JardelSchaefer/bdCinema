@@ -1,0 +1,5 @@
+Create Table Poltrona(
+codigoPol varchar(5) primary key,
+codigoPolSal int,
+CONSTRAINT fk_codigoPolSal FOREIGN KEY (codigoPolSal ) REFERENCES Sala (codigoSal)
+);
