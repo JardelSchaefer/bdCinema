@@ -1,3 +1,3 @@
-Update filme
-set FilGen = 'Drama'
-Where FilCod = 3;
+update telefone
+set TelDDD = 094
+Where TelUsuCod = 1;
