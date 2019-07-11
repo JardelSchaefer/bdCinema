@@ -1,0 +1,4 @@
+    
+update email
+set email = 'vilmar@senai.com'
+where EmaUsuCod = 3;
